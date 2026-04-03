@@ -1,5 +1,6 @@
 # CS215LL9
 ###Project Ideas
+
 Look at canvas data and find correlations we can find from the outputted data.
 
 Check my usage of AI such as ChatGPT, Gemini, and see the usage of AI lead me to. Maybe I can combine the canvas dataset and see an interesting pattern.
