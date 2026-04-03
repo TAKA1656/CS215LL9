@@ -1,5 +1,5 @@
 # CS215LL9
-###Project Ideas
+### Project Ideas
 
 Look at canvas data and find correlations we can find from the outputted data.
 
