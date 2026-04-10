@@ -15,7 +15,8 @@
   - Questions that may be answered
     - What career path is the most successful for each major?
     - Is it actually better to get a post graduate degree?
-###Week 10 Update
+      
+### Week 10 Update
  - I will work on my own
  - I am thinking of working with economic data and explore the tendency of variables over time
  - I will likely use the FRED data, because it is the most reliable, the pro is that there are so many data that I can explore, the con I can think of is that there might be empty datapoints which might cause a problem.
