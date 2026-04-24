@@ -44,7 +44,8 @@
   frameborder="0">
 </iframe>
 
- - I asked several questions to Gemini, one was how I make a visualization in plotly that is not a map. I also added a slide because it will likely add some interactiveness to the visualization. 
+ - I asked several questions to Gemini, one was how I make a visualization in plotly that is not a map. I also added a slide because it will likely add some interactiveness to the visualization.
+ - From the visualization, I found that the overall trend looks similar across different states, but the scale differs. Now Texas has higher real GDP compared to New York. California is by far the largest economy in the country at the moment.
  - I have started looking at different states so I can find out which state had the largest growth in the century. As we can see in the visualization, the growth of each state differ with each other. For example, we can compare what was different between New York and Texas. It could be population, price level, or employment, or anything. If we could do more comparisons to the point where we can actually predict what affects the real GDP, I think this can be an interesting project. 
 
  
