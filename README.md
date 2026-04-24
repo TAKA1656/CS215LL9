@@ -35,3 +35,11 @@
  - I used the population growth data to calculate the real GDP per capita, and found that the living standards actually rose by a lot since 1950. 
  - The cleaning / wrangling I had to do in the analysis above was to adjust the population data frequency to that of the real GDP data. I could only find the yearly population data, so I had to repeat the same number four times for each year in the population data.
  - A potential challenge is that the research is going to be a general and boring one unless I make my own economic logic and test it. I will try to think of an interesting question to ask, so I can make the research process fun and meaningful. Another challenge I think I might struggle with are the units, since GDP are going to be in dollars while if I look at GDP in different countries, they will be measuring them in different currencies. To avoid the confusion, I think I will need to know exactly what each number shown in the dataset means, and make sure I take the units into account to make a mathematical hypothesis.
+
+### Week 12 Update
+ - <iframe
+  src="Alaska_destinations_delays.html"
+  width="100%"
+  height="600"
+  frameborder="0">
+</iframe>
