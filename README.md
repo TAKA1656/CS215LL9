@@ -37,7 +37,7 @@
  - A potential challenge is that the research is going to be a general and boring one unless I make my own economic logic and test it. I will try to think of an interesting question to ask, so I can make the research process fun and meaningful. Another challenge I think I might struggle with are the units, since GDP are going to be in dollars while if I look at GDP in different countries, they will be measuring them in different currencies. To avoid the confusion, I think I will need to know exactly what each number shown in the dataset means, and make sure I take the units into account to make a mathematical hypothesis.
 
 ### Week 12 Update
- - <iframe
+<iframe
   src="5_states_gdp.html"
   width="100%"
   height="600"
