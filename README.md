@@ -48,4 +48,16 @@
  - From the visualization, I found that the overall trend looks similar across different states, but the scale differs. Now Texas has higher real GDP compared to New York. California is by far the largest economy in the country at the moment.
  - I have started looking at different states so I can find out which state had the largest growth in the century. As we can see in the visualization, the growth of each state differ with each other. For example, we can compare what was different between New York and Texas. It could be population, price level, or employment, or anything. If we could do more comparisons to the point where we can actually predict what affects the real GDP, I think this can be an interesting project. 
 
- 
+### Week 14 Update
+I was looking to model the growth of real GDP with the significance of various different variables that I could pull out of FRED, but since there will be a correlation between the variables, and makes it a lot harder for me to implement them all into my model, I decided to stick with the core statistics, such as interest rates, employment rate, inflation rate, and population(may be some variables added in the end). Ultimately, I would like to create an algorithm that predicts the real GDP given the present economic statistics.
+
+The new technique I am researching and implementing is the Vector Autoregression (VAR) model. This is a time series modeling technique that treats all variables equally in a system. Similar to a system of simultaneous equations, it predicts the current value of each variable based on the past values of all variables in the system simultaneously. I plan to implement this using the statsmodels library in Python.
+
+I initially learned the conceptual framework of this technique (such as the difference between standard regression and VAR) and the basic Python implementation steps by chatting with Gemini. Currently, I am filling in the technical details—like how to properly test for stationarity using unit root tests—by reading the official statsmodels documentation and web articles on time series analysis. I also plan on talking to Prof. WB if I need help interpreting the exact mathematical relationships output by the model.
+
+I'm thinking of using the following visualizations.
+Time Series Plots: Visually showing the raw data alongside the preprocessed (differenced) data to explain the concept of stationarity.
+
+Impulse Response Function (IRF) Graphs: This will be the highlight of the presentation. I will show graphs that simulate scenarios like, "If there is an unexpected shock (a sudden spike) in interest rates, what is the ripple effect on Real GDP and unemployment over the following months?" This will visually and intuitively explain the dynamic relationships between the variables.
+
+The logic I'm planning on making is first proving how the classical macroeconomic principles are not reliable enough to predict real GDP. I will then introduce a new model that reflects better(Hopefully I manage to make one). I haven't decided on whether I make slides, but definitely will make the procedure clear enough to follow either way.
